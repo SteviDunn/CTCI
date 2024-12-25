@@ -24,9 +24,9 @@ def is_route(graph, start_node, end_node):
     while stack:
         current = stack.pop()
         #pop off from stack to hold in current to compare to other nodes
+        #current is the current stack value
         if current in visited:
             continue
-        #current is the current stack value
         #the current value is added to current
         visited.add(current)
 
@@ -50,6 +50,6 @@ graph = {
 }
 
 start_node = 'A'
-end_node = 'C'
+end_node = 'B'
 
 print(is_route(graph, start_node, end_node))  # Output: True
