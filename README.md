@@ -1,2 +1,1 @@
-# CTCI
-CTCI
+A repository to store and practice coding exercises from the Cracking the Coding Interview book. This serves as a workspace for improving problem-solving skills and preparing for technical interviews.
