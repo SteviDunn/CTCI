@@ -25,7 +25,7 @@ class Solution(object):
         even = 0
         odd = 0
         for char in count:
-            if count[char]%2 == 0:
+            if count[char]%2 == 0: 
                 even += count[char]
             if count[char]%2 != 0:
                 odd += count[char]
