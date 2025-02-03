@@ -23,9 +23,9 @@ class BrowserHistory(object):
         #visit would append to history
         #clears up all forward history when at new url
 
-        #update current index
+        #update current index b/c we are visiting a new site
         self.current_index += 1
-
+        #clears forward history
         self.history = self.history[0:self.current_index]
         self.history.append(url)
 
